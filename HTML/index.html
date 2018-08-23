@@ -1,0 +1,70 @@
+<html>
+  <head>
+    
+    <title>Pasta Recipe</title>
+  </head>
+  
+  <body>
+    <header> 
+    <img src= "https://lever-client-logos.s3.amazonaws.com/58d4d1db-0eca-41d1-aa71-d8e40214ca16-1532545466470.png" alt= "app-academy logo"/>
+    <nav> 
+      <ul>
+        <a href="#Description">Description</a>
+        <a href="#Ingredients">Ingredients</a>
+        <a href="#Directions">Directions</a>
+      </ul>
+    </nav>
+    <aside> 
+      <h2>Ingredients</h2>
+      <a name="Ingredients"></a>
+        <ul>
+          <li> Spaghetti noodles</li>
+          <li> Tomato Sauce</li>
+        </ul>
+    </aside>
+    </header>
+    <h1>How to cook pasta</h1>
+    <section>
+      <h2>Description</h2>
+        <a name="Description"></a>
+        <p>This recipe is how to cook your pasta properly. We will have ingredients listed and a list of directions on what to do.</p>
+        <figure>
+          <img src="https://bit.ly/2Gu6SUn" alt="pasta dish"/>
+          <figcaption><a href="https://en.wikipedia.org/wiki/HTML">wiki article</a> </figcaption>
+        </figure>
+      <h2>Directions</h2>
+      <a name="Directions"></a>
+        <ol>
+          <li> Boil the water</li>
+          <li> Place noodles in boiling water</li>
+          <li> Strain noodles from water and let sit</li>
+          <li> Pour tomato sauce over.</li>
+        </ol>
+    </section>
+      <!-- Here is our recipe -->
+      <section>
+        <form>
+          <label for="reviewer name" id="reviewer_name"> Reviewer Name </label>
+          <input type="text" id="reviewer_name">
+          <br><label for="rating" id="rating">Rating:</label>
+          <ol>
+            <li><input type="radio" id="1" value="1" checked="checked" name="radAnswer"/></li>
+            <li><input type="radio" id="2" value="2" name="radAnswer"/></li>
+            <li><input type="radio" id="3" value="3" name="radAnswer"/></li>
+            <li><input type="radio" id="4" value="4" name="radAnswer"/></li>
+            <li><input type="radio" id="5" value="5" name="radAnswer"/></li>
+          </ol>
+        <br><label for"cooking" id="cooking"> Cooking Expertise </label>
+        <select id="cooking">
+          <option value="select_cooking_expertise">Select Cooking Expertise</option>
+          <option value="sometimes_cook">Sometimes Cook</option>
+          <option value="cook_everyday">Cook Everyday</option>
+          <option value="cooking_hobby">Cooking is a Hobby</option>
+        </select>
+        </form>
+      </section>
+    <footer>
+      <p><a href="https://www.theprairiehomestead.com/2015/02/homemade-pasta-recipe.html">Recipe origin</a> </p>
+    </footer>
+  </body>
+</html>
